@@ -2,10 +2,10 @@ import os, subprocess, sys, pyrebase
 class Database(object):
     def __init__(self):
         config = {
-            "apiKey": "AIzaSyDehw4NuNihPM1Lezc1GbPGWE272yHOE1s",
-            "authDomain": "rgb-led-control.firebaseapp.com",
-            "databaseURL": "https://rgb-led-control.firebaseio.com",
-            "storageBucket": "rgb-led-control.appspot.com",
+            "apiKey": "APIKEY",
+            "authDomain": "AUTHDOMAI ",
+            "databaseURL": "URL",
+            "storageBucket": "STORAGEBUCKET",
             "tls": {
                 "rejectUnauthorized": False
                 }

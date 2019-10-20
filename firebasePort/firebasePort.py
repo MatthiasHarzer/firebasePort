@@ -1,11 +1,11 @@
-import os, subprocess, sys, pyrebase
+import os, subprocess, pyrebase
 class Database(object):
     def __init__(self):
         config = {
-            "apiKey": "APIKEY",
-            "authDomain": "AUTHDOMAI ",
-            "databaseURL": "URL",
-            "storageBucket": "STORAGEBUCKET",
+            "apiKey": "AIzaSyDehw4NuNihPM1Lezc1GbPGWE272yHOE1s",
+            "authDomain": "rgb-led-control.firebaseapp.com",
+            "databaseURL": "https://rgb-led-control.firebaseio.com",
+            "storageBucket": "rgb-led-control.appspot.com",
             "tls": {
                 "rejectUnauthorized": False
                 }
